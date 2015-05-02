@@ -1,4 +1,4 @@
-# ProjekatNeucenje
+# Learning HTML and CSS
 
 In this project, I (leviathan88) try to teach my friend HTML and CSS basics,
 you are free to learn with us, the project should hopefully grow and one day
