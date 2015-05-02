@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Building Together</title>
+        <link rel="stylesheet" href="style/style.css" />
+        <!--<script src="scripts.js"></script> -->
+    </head>
+    <body>
+        <header>            
+            <h1><abbr title="HyperText Markup Language">HTML</abbr>5, for Elvis, Jasmin &amp; Everbody else!</h1>            
+            <nav>
+                <ul>
+                    <li><a href="/Archive/">Archive</a></li>
+                    <li><a href="/About/">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h1>This is a section, containing two articles</h1>
+            <article>
+                <h4>Article</h4>
+                <p>Here, we put the main text, you now like something very interesting</p>
+                <p>check the <em>'title'</em> and <em>'alt'</em> attributes, just hover over HTML5 in the header or Jasmin's picture</p>
+            </article>
+
+            <article>
+                <h4>Article 2</h4>
+                <p>Here's another article, where we do the same old thing :)</p>                
+            </article>
+        </section>
+
+        <section>
+            <h3>Text Editing and Displaying:</h3>
+            <article>
+                <p>Next text we shall <em>emphasize</em>, just for the sake of <em>emphasizing</em></p>
+                <p>Here we use a similar <i>element to em</i>, you use it nor for the presentational purposes, but only to give the text mood like in "Striko said to himself: <i>'I must be crazy'</i></p>
+                <p>This text is <strong>Strong</strong>, just for the sake of being <strong>Strong</strong></p>
+                <p>Here we use a similar <b>element to strong</b>, but also it's not used for presentational purposes, only for <b>keywords</b>, <b>product names</b>, or other content whose
+                text would typically be unique compared to surrounding text</p>
+                <p>If we want to <mark>Highlight</mark> a search term we use <mark>Mark</mark> element</p>
+                <p><small>If we want to put a legal disclaimer we use small element</small></p>                
+            </article>        
+            <h3>Using images with captions, and creating dates:</h3>
+            <article>                
+                <figure>
+                    <img src="images/jasmin.jpg" alt="Jasminova slika iz zatvora 1999" />
+                    <figcaption>The brain behind the Microsoft</figcaption>
+                </figure>
+                <p>Created on: <time datetime="2015-05-02">May 02, 2015</time></p>
+            </article>
+            <h3>Creating collapsable content, controlling numbering:</h3>
+            <article>
+                <details>
+                    <summary>Click the Arrow on the left</summary>
+                    <p>You've managed to expand me, congrats!</p>
+                    <ul>
+                        <li>I like skiing, but I never ski</li>
+                        <li>I like dancing, but I never dance</li>
+                        <li>I dislike working, but I work whole day</li>
+                    </ul>
+                </details>
+
+                <p>And here's how we controll the numbering in the ordered list:</p>
+                <ol start="3">
+                    <li>I'm first but actually third</li>
+                    <li>I don't care I'm second (no, he isn't)</li>
+                    <li>I'm fifth :(</li>
+                </ol>
+
+                <!--<ol reversed>
+                    <li>counting downards</li>
+                    <li>Either way I'm second</li>
+                    <li>Bottom first!</li>
+                </ol>-->
+
+                <!--<p>This way we have a tie</p>
+                    <ol>
+                        <li value="1">Together on top!</li>
+                        <li value="1">Actually now I'm not second :(</li>
+                        <li value="2">Bottom second</li>
+                    </ol>-->                
+            </article>
+
+            <article contenteditable>
+                <h2>Take a closer look, you can edit me!</h2>
+                <p>Me too!, write something clever and you will win amazing prizes...</p>
+            </article>
+            <p draggable>You can't edit me, but you can drag me, though you would need to use JS to create a drag zone first!</p>
+        </section>
+
+        <aside>
+            <h2>Aside is the text on a side</h2>
+            <p>Here are some interesting links</p>
+            <ul>
+                <li><a href="http://www.w3schools.com/html/">School for HTML</a></li>
+                <li><a href="http://www.codecademy.com/en/tracks/web">Code Academy for Noobs like you Jasmin</a></li>
+            </ul>
+        </aside>
+
+        <footer>
+            <p>Copyright &copy; 2015 <a href="http://NasaStranica.com">HTM5, for Elvis &amp; Jasmin</a>. All rights reserved.</p>
+        </footer>
+        
+    </body>
+</html>
