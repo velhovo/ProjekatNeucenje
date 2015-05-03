@@ -2,14 +2,12 @@ header, footer, nav, article, aside, section {
     display: block;
 }
 body {
-    background-image: url("warning-tape-background.jpg");
-    background-repeat: no-repeat;
+    background-image: url("/images/upfeathers.png");
+    font-family: verdana, arial, sans-serif;
     background-attachment: fixed;
+   
 }
 
-body {
-    font-family: verdana, arial, sans-serif;
-}
 h1 {
     font-size: 120%;
 }
@@ -58,4 +56,6 @@ img:hover {
     border-style: solid;
     background: #999;
 }
+
+
 
