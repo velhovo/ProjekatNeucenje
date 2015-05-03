@@ -22,20 +22,7 @@ p {
     padding: 10px;
 }
 
-a:link {
-    color: blue;
-}
-a:visited {
-    color: purple;
-}
 
-a:hover {
-    color: red;
-}
-
-a:active {
-    color: gray;
-}
 
 div {
     height: 150px;
@@ -59,90 +46,83 @@ h2, h3 {
 text-align: center;
 }
 #navsite p {
-display: none;
+    display: none;
 }
 a {
-text-shadow: 0 −1px 0px rgba(0,0,0,.8);
+    text-shadow: 0 −1px 0px rgba(0,0,0,.8);
 }
 #navsite p {
-display: none;
+    display: none;
 }
 #navsite ul {
-width: 100%;
-float: left;
-padding: 0;
-margin-left: 0;
-border-bottom: 1px solid #778;
-font: bold 12px Verdana, sans-serif;
+    width: 100%;
+    float: left;
+    padding: 0;
+    margin-left: 0;
+    border-bottom: 1px solid #778;
+    font: bold 12px Verdana, sans-serif;
 }
 #navsite ul li {
-list-style: none;
-margin: 0;
-float: left;
+    list-style: none;
+    margin: 0;
+    float: left;
 }
 #navsite ul li a {
-padding: 12px 0.5em;
-margin-left: 3px;
-border: 1px solid #778;
-border-bottom: none;
-background-color: #666;
-text-decoration: none;
-background-image: url(title-glass.png);
-background-position: 50%;
-background-repeat: repeat-x;
-display: block;
-width: 7em;
+    padding: 12px 0.5em;
+    margin-left: 3px;
+    border: 1px solid #778;
+    border-bottom: none;
+    background-color: #666;
+    text-decoration: none;
+    background-image: url(title-glass.png);
+    background-position: 50%;
+    background-repeat: repeat-x;
+    display: block;
+    width: 7em;
 }
 #navsite ul li a:link {
-color: white;
-}
-#navsite ul li a:visited {
-color: #667;
+    color: white;
 }
 #navsite ul li a:link:hover, #navsite ul li a:visited:hover {
-color: #000;background-color: #aae;
-border-color: #227;
+    color: #000;background-color: #aae;
+    border-color: #227;
 }
 #navsite ul li a#current {
-background-color: white;
-border-bottom: 1px solid white;
-color: #448;
-margin-bottom: -1px;
+    background-color: white;
+    border-bottom: 1px solid white;
+    color: #448;
+    margin-bottom: -1px;
 }
 #navsite ul li a#current:hover {
-background-image: url(title-glass.png);
-background-position: 50%;
-background-repeat: repeat-x;
+    background-image: url(title-glass.png);
+    background-position: 50%;
+    background-repeat: repeat-x;
 }
 .clearfix:after {
-content: ".";
-display: block;
-height: 0;
-clear: both;
-visibility: hidden;
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
 }
 #navsite ul li a:link {
-color: white;
+        : white;
 }
-#navsite ul li a:visited {
-color: #667;
-}
+
 #navsite ul li a:link:hover, #navsite ul li a:visited:hover {
-color: #000;
-background-color: #aae;
-border-color: #227;
+    color: #000;
+    background-color: #aae;
+    border-color: #227;
 }
 .clearfix:after {
-content: ".";
-display: block;
-height: 0;
-clear: both;
-visibility: hidden;
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
 }
 
 aside {
     margin-right: 650px;
     color: blue;
-
-
 }
