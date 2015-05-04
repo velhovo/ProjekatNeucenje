@@ -126,3 +126,7 @@ aside {
     margin-right: 650px;
     color: blue;
 }
+
+footer {
+    fit-position: center;
+}
