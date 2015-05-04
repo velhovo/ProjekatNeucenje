@@ -14,6 +14,7 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="forms.html">Forms</a></li>
+                    <li><a href="audiovideo.html">Audio and Video</a></li>
                     <li><a href="about.html">About</a></li>
                 </ul>
             </nav>
@@ -29,10 +30,43 @@
             <form>
                 <fieldset>
                     <legend>Contact Information</legend>
-                    <p><label>E-mail address <input type="email" name="email"></label></p>
-                    <p><label>Web site <input type="url" name="website"></label></p>
-                    <p><label>Telephone number <input type="tel" name="phone"></label></p>
+                    <p><label>Name <input type="text" name="text" autofocus="true"></label></p>
+                    <p><label>E-mail address <input type="email" name="email" required></label></p>
+                    <p><label>Web site <input type="url" name="website" placeholder="www.YourWebsite.com"></label></p>
+                    <p><label>Telephone number <input type="tel" name="phone" pattern="[2-9][0-9]{2}-[0-9]{3}-[0-9]{4}"></label></p>
                 </fieldset>
+                <p><button type="submit">Submit</button></p>
+            </form>
+
+            <h3>Date Form</h3>
+            <form>
+                <p><label>When were you born <input type="datetime-local" name="dateAndTime"></label></p>                
+                <p><button type="submit">Submit</button></p>
+            </form>
+
+            <h3>Number inputs</h3>
+            <form>
+                <p><label>Quantity <input type="number" name="quantity"></label></p>
+                <p><button type="submit">Submit</button></p>
+            </form>
+            <form>
+                <p><label>Volume <input type="range" name="volume"min="0" max="10" step=".5" value="5"></label></p>
+            </form>
+
+            <h3>Selectiong colors</h3>
+            <form>
+                <p><label>Color <input type="color" name="bg"></label></p>                
+                <p><button type="submit">Submit</button></p>
+            </form>
+
+            <h3>Editable Dropdown</h3>
+            <form>
+                <p><label>Your Amount <input type="text" name="donation"list="donations"></label></p>
+                <datalist id="donations">
+                    <option value="10.00">10.00</option>
+                    <option value="25.00">25.00</option>
+                    <option value="50.00">50.00</option>
+                </datalist>
                 <p><button type="submit">Submit</button></p>
             </form>
         </section>
